@@ -1,6 +1,6 @@
 body {
-    background-color:black;
-    color: #222222;
+    background-color:rgb(206, 198, 198);
+    color: #bd9a9a;
     font-family: Arial, sans-serif;
 }
 
@@ -22,4 +22,21 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+    nav {
+        margin-top: 20px;
+    }
+
+    nav a {
+        color: white;
+        test-decoration: none;
+        background-color: aliceblue;
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    nav a: hover {
+        background-color: black;
+    }
 
