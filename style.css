@@ -40,3 +40,48 @@ p {
         background-color: black;
     }
 
+    main {
+        width: 80%;
+        margin: auto;
+    }
+
+    section {
+        background-color: white;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 14px;
+        color: blue;
+        margin-top: 8px;
+    }
+
+    card {
+        background-color: blueviolet;
+        padding: 15px;
+        margin: 15px 0;
+        border-left: 6px solid black;
+        border-radius: 10px;
+    }
+    card h3 {
+        margin-top: 0;
+    }
+    footer {
+        background-color: aliceblue;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
